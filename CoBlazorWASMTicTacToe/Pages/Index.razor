@@ -1,0 +1,59 @@
+﻿@page "/"
+
+@inject IJSRuntime _jsRuntime;
+
+<PageTitle Title="Welcome to BlazorGames!" />
+
+<p>
+    Welcome Players! On this site we make games with ASP.NET Core and Blazor
+    and have some fun while learning how to do it ourselves.
+</p>
+
+<p>This site will be updated with new examples as they are made. In the meantime, check out the existing games below.</p>
+
+<h2>
+    The Games
+</h2>
+
+<p>Click on any of the games below to both play them and learn how to build them in Blazor WebAssembly!</p>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <NavLink class="nav-link" href="tictactoe">
+                <h3>Tic Tac Toe</h3>
+                <img class="img-fluid" src="images/tictactoe/tictactoe-bookmark.png" />
+            </NavLink>
+        </div>
+        <div class="col">
+            <NavLink class="nav-link" href="connectfour">
+                <h3>ConnectFour</h3>
+                <img class="img-fluid" src="images/connectfour/connectfour-bookmark.png" />
+            </NavLink>
+        </div>
+        <div class="col">
+            <NavLink class="nav-link" href="minesweeper">
+                <h3>Minesweeper</h3>
+                <img class="img-fluid" src="images/minesweeper/minesweeper-bookmark.png" />
+            </NavLink>
+        </div>
+        <div class="col">
+            <NavLink class="nav-link" href="yahtzee">
+                <h3>Yahtzee</h3>
+                <img class="img-fluid" src="images/yahtzee/yahtzee-bookmark.png" />
+            </NavLink>
+        </div>
+        <div class="col">
+            <NavLink class="nav-link" href="gameoflife">
+                <h3>Conway's Game of Life</h3>
+                <img class="img-fluid" src="images/gameoflife/gameoflife-bookmark.png" />
+            </NavLink>
+        </div>
+        <div class="col">
+            <NavLink class="nav-link" href="blackjack">
+                <h3>Blackjack</h3>
+                <img class="img-fluid" src="images/blackjack/blackjack-bookmark.png" />
+            </NavLink>
+        </div>
+    </div>
+</div>
